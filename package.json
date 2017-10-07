@@ -1,0 +1,27 @@
+{
+  "name": "pocket-bot",
+  "version": "1.0.0",
+  "description": "A Messenger chatbot to bookmark articles from Facebook to Pocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "activate": "curl -X POST 'https://graph.facebook.com/v2.6/me/subscribed_apps?access_token='$FACEBOOK_POCKET_BOT_TOKEN"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.14.0",
+    "heroku-logger": "^0.2.0",
+    "messenger-bot": "^2.2.0",
+    "mongoose": "^4.12.0",
+    "pocket-api": "https://github.com/tketa/pocket-api",
+    "q": "^1.4.1",
+    "request": "^2.79.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
