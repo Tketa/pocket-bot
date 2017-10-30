@@ -1,5 +1,11 @@
-# Pocket-Bot 👓
+# Pocket-Bot 
 Save articles on Facebook to [Pocket](http://getpocket.com) by sending them to a Messenger Chatbot.
+
+## Motivation
+
+Read [this article](https://medium.com/@jgot/how-i-hacked-around-facebook-to-save-articles-to-a-third-party-app-116e970b287d)
+
+-------------------
 
 To deploy your own bot, follow thoses steps:
 
