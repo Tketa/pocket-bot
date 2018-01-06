@@ -92,7 +92,7 @@ class PocketBot {
         this.saveArticle(user, url);
       } else {
         const receivedText = payload.message.text;
-        if (receivedText && receivedText.startsWith('http://')) {
+        if (receivedText && (receivedText.startsWith('http://') || receivedText.startsWith('https://'))) {
           this.saveArticle(user, receivedText);
           return;
         }
