@@ -1,4 +1,7 @@
 # Pocket-Bot 
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Tketa/pocket-bot.svg)](https://greenkeeper.io/)
+
 Save articles on Facebook to [Pocket](http://getpocket.com) by sending them to a Messenger Chatbot.
 
 ## Motivation
